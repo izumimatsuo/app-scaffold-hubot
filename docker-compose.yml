@@ -9,6 +9,4 @@ services:
       - '.:/projects'
       - '/projects/node_modules'
     tty: true
-    environment:
-      HUBOT_SLACK_TOKEN: xoxb-985537884688-987783178022-o2XHLHcoxEt4ZQEbbHuLkIiC
     command: /bin/sh
